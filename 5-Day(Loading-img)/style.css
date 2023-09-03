@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg{
+    background-image: url("./1.jpeg");
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height:calc(100vh + 60px);
+    /* height: 100vh;
+    width: 100vw; */
+    z-index: -1;
+    filter: blur(0px);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    overflow-x: hidden;
+    
+}
+
+.loading-text{
+    font-size: 50px;
+    color: #fff;
+}
